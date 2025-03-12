@@ -1,0 +1,17 @@
+Descrição da entrega de variáveis:
+
+nomemedico = 'Julio Roberto'
+senhamedico = '2121medicina1'
+CPFmedico = '082.906.299-82'
+emailmedico = 'juliomedicina235@gmail.com'
+CRM = '787665/PR'
+especialidade = 'oftalmologia'
+nomepaciente = 'Marco Antonio'
+senhapaciente = 'marquinho2'
+CPFpaciente = '482.040.379-61'
+emailpaciente = 'marquinho12eu@gmail.com'
+infomedica = 'Tem alergia a amendoim'
+consulta = 'oftalmologista'
+dataconsulta = '12/05/2025'
+horarioconsulta = '19:00'
+localconsulta = 'Clinica de Olhos Silva''Rua Dom Pedro I''Bairro Água Verde'
