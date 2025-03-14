@@ -5,7 +5,7 @@ senhamedico - Sensível
 CPFmedico - Sensível
 emailmedico - Sensível
 CRM - Sensível
-especialidade - Sensível
+especialidade - Não Sensível
 nomepaciente - Sensível
 senhapaciente - Sensível
 CPFpaciente - Sensível
