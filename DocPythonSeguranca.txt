@@ -1,0 +1,17 @@
+Descrição da entrega de variáveis:
+
+nomemedico - Sensível
+senhamedico - Sensível
+CPFmedico - Sensível
+emailmedico - Sensível
+CRM - Sensível
+especialidade - Sensível
+nomepaciente - Sensível
+senhapaciente - Sensível
+CPFpaciente - Sensível
+emailpaciente - Sensível
+infomedica - Sensível
+consulta - Sensível
+dataconsulta - Sensível
+horarioconsulta - Sensível
+localconsulta - Sensível
