@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif; /* Corrigido o uso da fonte */
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Adicionado para centralizar verticalmente */
+    background-color: rgb(200, 200, 255);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.img-med {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Adicionado para centralizar a imagem verticalmente */
+    padding: 1rem;
+    background-color: white;
+}
+
+.img-med img {
+    width: 45rem;
+    object-fit: contain; /* Garante que a imagem se ajuste corretamente ao espaço */
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Garantido que ocupe a largura total */
+}
+
+.login-buttom {
+    display: flex;
+    align-items: center;
+    margin-right: 9rem;
+}
+
+.login-buttom button {
+    border: none;
+    background-color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-buttom button:hover {
+    background-color: aliceblue;
+}
+
+.login-buttom button a {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 700;
+    color: rgb(77, 77, 255);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column; /* Altere flex-direction para coluna */
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column; /* Melhor organização dos inputs */
+    margin-bottom: 1rem;
+}
+
+.input-box input {
+    margin: 0.5rem 0;
+    padding: 0.8rem 1rem; /* Corrigido a sintaxe de padding */
+    border: 1px solid #ccc; /* Adicionado borda ao input */
+    border-radius: 5px; /* Bordas arredondadas nos campos de input */
+    width: 100%; /* Garantido que o input ocupe toda a largura disponível */
+    font-size: 1rem; /* Ajustado o tamanho da fonte */
+    transition: border-color 0.3s ease; /* Transição suave ao focar o input */
+}
+
+.input-box input:focus {
+    border-color: rgb(77, 77, 255); /* Cor da borda quando o input estiver em foco */
+    outline: none; /* Remover o outline padrão */
+}
+
+
+.registro {
+    color: red;
+    font-size: small;
+}
