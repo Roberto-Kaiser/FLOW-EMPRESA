@@ -1,0 +1,58 @@
+body {
+    background-color: #094886;
+    color: white;
+    font-family: 'Open Sauce', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 18px;
+}
+
+.container {
+    background-color: #094886;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    color: rgb(251, 249, 249);
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; /* Reduzimos o espaço entre os itens para juntá-los */
+    background-color: #094886; /* Adicionamos o fundo azul escuro */
+    padding: 10px; /* Adicionamos espaçamento interno */
+    border-radius: 5px; 
+}
+
+.feature img {
+    width: 30px;
+    margin-right: 15px;
+}
+
+.feature p {
+    text-align: left; 
+    margin: 0; 
+    color: white; 
+}
