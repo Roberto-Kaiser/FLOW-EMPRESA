@@ -66,6 +66,10 @@ body {
     cursor: pointer;
 }
 
+.login-buttom button a {
+    color: black;
+}
+
 .login-buttom button:hover {
     background-color: aliceblue;
 }
